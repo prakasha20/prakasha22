@@ -16,5 +16,7 @@ public static void main(String[] args)
  else
  System.out.println("CONSONANTS");
  }
+ ELSE
+  System.out.println("NOT A LETTER");
  }
  }
