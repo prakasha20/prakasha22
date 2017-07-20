@@ -16,7 +16,7 @@ public class seed {
 		r*=i;
 		if(r==n)
 		{
-			System.out.println("seed"+i);
+			System.out.println("seed"+" "+i);
 		}
 	}
 	}
