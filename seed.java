@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class seed {
 	public static void main(String[] arg)
 	{
+		int cout=0;
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
 	for(int i=0;i<n;i++)
@@ -17,8 +18,12 @@ public class seed {
 		if(r==n)
 		{
 			System.out.println("seed"+" "+i);
+			count++;
 		}
+		
 	}
+		if(count==0)
+			System.out.println("No seeds");
 	}
 
 }
