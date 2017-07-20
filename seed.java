@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class seed {
 	public static void main(String[] arg)
 	{
-		int cout=0;
+		int count=0;
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
 	for(int i=0;i<n;i++)
